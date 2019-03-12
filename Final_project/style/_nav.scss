@@ -1,0 +1,28 @@
+.navWrapper {
+  width: 1250px;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+
+}
+
+.categoriesWrapper {
+  height: 100%;
+  ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      color: #e0e0e0;
+      text-transform: uppercase;
+      font-family: OpenSans-Bold;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.49px;
+    }
+  }
+}
