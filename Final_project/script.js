@@ -14,15 +14,36 @@ $(document).ready(function () {
     });
     $(`.contactUsButt`).mouseover(function () {
         $(this).css({
-            background: `#e12b2b`,
+            background: `#f6f2f2`,
             cursor: `pointer`,
+            color: `#ff2d2d`,
+            width: 227,
+            height: 55,
+            border: `2px solid #ff2d2d`
 
         })
     });
     $('.contactUsButt').mouseout(function () {
         $(this).css({
-            background: ``,
+            background: `#ff2d2d`,
+            color: `#ffffff`,
+            width: 227,
+            height: 55,
+            border: `none`
         })
     });
+    $(`.learnMoreButt`).mouseover(function () {
+        $(this).css({
+            background: `#ff0000`,
+            cursor: `pointer`,
+            color: `white`,
 
+        })
+    });
+    $('.learnMoreButt').mouseout(function () {
+        $(this).css({
+            background: ``,
+            color: `#ff2d2d`
+        })
+    });
 });
