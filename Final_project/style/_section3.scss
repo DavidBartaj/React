@@ -1,0 +1,94 @@
+.meetOurTeamWrapper {
+  width: 1250px;
+  margin: 119px auto 0 auto;
+}
+
+.meetOurTeamTitleText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h3 {
+    font-family: OpenSans-Bold;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+  }
+
+  p {
+    width: 466px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 40px 0 33px 0;
+
+  }
+}
+
+.meetOurTeamHr {
+  width: 132px;
+  height: 3px;
+  background: #ff2d2d;
+  border: none;
+  margin: 0;
+}
+
+.teamPortfolioWrapper {
+  width: 1250px;
+  height: 458px;
+  margin: 69px 0 0 0;
+  display: flex;
+}
+
+.accountPhoto {
+  width: 321px;
+  height: 458px;
+}
+
+.teamPortfolioText {
+  margin: 15px 0 0 73px;
+
+  h3 {
+    font-family: OpenSans-SemiBold;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+  }
+
+  p {
+    width: 630px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 35px 0 44px 0;
+  }
+}
+
+.teamNetworkWrapper {
+  width: 373px;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    font-family: OpenSans-Italic;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color: rgba(0, 0, 0, 0.7);
+
+  }
+}
+.teamPhotoWrapper{
+  width: 855px;
+  margin: 67px 0 0 73px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 196px;
+    height: 195px;
+  }
+}
