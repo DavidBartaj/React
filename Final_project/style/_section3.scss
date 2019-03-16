@@ -82,13 +82,36 @@
 
   }
 }
-.teamPhotoWrapper{
+
+.teamPhotoWrapper {
   width: 855px;
   margin: 67px 0 0 73px;
   display: flex;
   justify-content: space-between;
-  img{
-    width: 196px;
-    height: 195px;
+
+  div {
+    position: relative;
+
+    img {
+      width: 196px;
+      height: 195px;
+    }
   }
+
+}
+
+.accountNameOnPhoto {
+  width: 196px;
+  height: 37px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  top: -37px;
+  left: 0;
+  font-family: OpenSans-SemiBold;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  display: none;
 }

@@ -1,6 +1,5 @@
 .getInTouchWrapper {
   width: 1250px;
-  //background: silver;
   margin: 106px auto 0 auto;
 }
 
@@ -28,13 +27,17 @@
   }
 }
 
+.contactInfoWrapper {
+  margin: 75px 0 0 0;
+  position: relative;
+}
+
 .sendMailForm {
   width: 732px;
-  //background: blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 75px 0 0 0;
+
 
   input {
     width: 290px;
@@ -74,5 +77,35 @@
     color: white;
     text-transform: uppercase;
     border-radius: 5px;
+  }
+}
+
+.contactInfoBlackBlockWrapper {
+  width: 4000px;
+  height: 481px;
+  background: #2d2d2d;
+  position: absolute;
+  top: 0;
+  left: 838px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h5 {
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    margin: 0 0 0 79px;
+  }
+
+  p {
+    width: 285px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 0 79px;
   }
 }
