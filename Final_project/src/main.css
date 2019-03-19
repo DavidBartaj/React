@@ -1,0 +1,510 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  overflow-x: hidden; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("style/fonts/Open Sans/OpenSans-Bold.ttf"); }
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url("style/fonts//Open Sans/OpenSans-ExtraBold.ttf"); }
+@font-face {
+  font-family: OpenSans;
+  src: url("style/fonts//Open Sans/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("style/fonts//Open Sans/OpenSans-Light.ttf"); }
+@font-face {
+  font-family: OpenSans-SemiBold;
+  src: url("style/fonts//Open Sans/OpenSans-Semibold.ttf"); }
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url("style/fonts//Open Sans/OpenSans-Italic.ttf"); }
+.headerFullScreen {
+  height: 690px;
+  background: #f6f2f2;
+  padding: 30px 0 0 0; }
+
+.headerContentWrapper {
+  width: 1250px;
+  height: 356px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  justify-content: space-between; }
+
+.headerContentTextWrapper {
+  width: 588px;
+  height: 117px; }
+  .headerContentTextWrapper h1 {
+    font-family: OpenSans-ExtraBold;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; }
+  .headerContentTextWrapper p {
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 36px 0 58px 0; }
+
+.contactUsButt {
+  width: 227px;
+  height: 55px;
+  border-radius: 5px;
+  background: #ff2d2d;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: OpenSans-Bold;
+  font-size: 18px; }
+
+.headerContentVideoWrapper {
+  width: 551px;
+  height: 356px; }
+  .headerContentVideoWrapper video {
+    width: 551px;
+    height: 311px;
+    box-shadow: 0px 10px 30px 10px silver; }
+
+.navWrapper {
+  width: 1250px;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0 auto; }
+
+.categoriesWrapper {
+  height: 100%; }
+  .categoriesWrapper ul {
+    height: 100%;
+    display: flex;
+    justify-content: center; }
+    .categoriesWrapper ul li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      color: #e0e0e0;
+      text-transform: uppercase;
+      font-family: OpenSans-Bold;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.49px; }
+
+.doYouKnowWrapper {
+  width: 1250px;
+  height: 692px;
+  margin: 0 auto;
+  padding: 114px 0 0 0;
+  display: flex;
+  justify-content: space-between; }
+
+.doYouKnowContentWrapper {
+  width: 509px; }
+  .doYouKnowContentWrapper h2 {
+    font-family: OpenSans-Bold;
+    font-size: 42px;
+    line-height: 55px;
+    letter-spacing: 0.42px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase; }
+  .doYouKnowContentWrapper p {
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 50px 0 58px 0; }
+
+.learnMoreButt {
+  width: 223px;
+  height: 51px;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  outline: none;
+  background: white;
+  color: #ff2d2d;
+  font-family: OpenSans-Bold;
+  font-size: 18px; }
+
+.doYouKnowProposalWrapper {
+  width: 637px;
+  height: 484px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .doYouKnowProposalWrapper div {
+    height: 213px;
+    width: 292px;
+    margin: 0 0 49px 0; }
+    .doYouKnowProposalWrapper div h6 {
+      font-family: OpenSans-SemiBold;
+      font-size: 24px;
+      letter-spacing: 0.24px;
+      color: rgba(0, 0, 0, 0.7);
+      margin: 30px 0 17px 0; }
+    .doYouKnowProposalWrapper div p {
+      font-family: OpenSans;
+      font-size: 16px;
+      line-height: 28px; }
+
+.bigSilverHr {
+  width: 1250px;
+  height: 2px;
+  margin: 0 auto;
+  background: #ececec;
+  border: none; }
+
+.featureProductsWrapper {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 106px 0 0 0; }
+
+.titleText {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .titleText h3 {
+    font-family: OpenSans-Bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
+    color: rgba(0, 0, 0, 0.8); }
+  .titleText p {
+    width: 504px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 34px 0 29px 0; }
+
+.featureProductsHr {
+  width: 132px;
+  height: 3px;
+  background: #ff2d2d;
+  border: none; }
+
+.featureProductsNav {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 88px auto 66.4px auto; }
+  .featureProductsNav li {
+    font-family: OpenSans-SemiBold;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase; }
+
+.featureProductsImgWrapper {
+  width: 1250px;
+  height: 605px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .featureProductsImgWrapper img {
+    width: 297.7px;
+    height: 290.2px;
+    margin: 0 0 19.5px 0; }
+
+.meetOurTeamWrapper {
+  width: 1250px;
+  margin: 119px auto 0 auto; }
+
+.meetOurTeamTitleText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  .meetOurTeamTitleText h3 {
+    font-family: OpenSans-Bold;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase; }
+  .meetOurTeamTitleText p {
+    width: 466px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 40px 0 33px 0; }
+
+.meetOurTeamHr {
+  width: 132px;
+  height: 3px;
+  background: #ff2d2d;
+  border: none;
+  margin: 0; }
+
+.teamPortfolioWrapper {
+  width: 1250px;
+  height: 458px;
+  margin: 69px 0 0 0;
+  display: flex; }
+
+.accountPhoto {
+  width: 321px;
+  height: 458px; }
+
+.teamPortfolioText {
+  margin: 15px 0 0 73px; }
+  .teamPortfolioText h3 {
+    font-family: OpenSans-SemiBold;
+    font-size: 30px;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase; }
+  .teamPortfolioText p {
+    width: 630px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 35px 0 44px 0; }
+
+.teamNetworkWrapper {
+  width: 373px;
+  display: flex;
+  justify-content: space-between; }
+  .teamNetworkWrapper a {
+    text-decoration: none;
+    font-family: OpenSans-Italic;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    color: rgba(0, 0, 0, 0.7); }
+
+.teamPhotoWrapper {
+  width: 855px;
+  margin: 67px 0 0 73px;
+  display: flex;
+  justify-content: space-between; }
+  .teamPhotoWrapper div {
+    position: relative; }
+    .teamPhotoWrapper div img {
+      width: 196px;
+      height: 195px; }
+
+.accountNameOnPhoto {
+  width: 196px;
+  height: 37px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  top: -37px;
+  left: 0;
+  font-family: OpenSans-SemiBold;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  display: none; }
+
+.mailSubscribeFullScreen {
+  width: 100%;
+  height: 512px;
+  background: url("img/wallpaper-game-of-thrones-winter-is-coming-9-wallpaper.jpg");
+  background-size: cover;
+  margin: 110px 0 0 0; }
+
+.mailSubscribeWrapper {
+  width: 1250px;
+  height: 512px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mailSubscribeWrapper h3 {
+    font-family: OpenSans-Bold;
+    font-size: 42px;
+    letter-spacing: 1.05px;
+    color: rgba(255, 255, 255, 0.8); }
+  .mailSubscribeWrapper p {
+    font-family: OpenSans;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 31px 0 62px 0; }
+
+.subscribeForm {
+  display: flex;
+  align-items: center; }
+  .subscribeForm input {
+    width: 485px;
+    height: 79px;
+    outline: none;
+    padding: 0 0 0 36px;
+    margin: 0 32px 0 0;
+    border-radius: 5px; }
+  .subscribeForm button {
+    width: 214px;
+    height: 79px;
+    outline: none;
+    background: #ff2d2d;
+    border-radius: 5px;
+    color: white;
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+    border: none; }
+
+.getInTouchWrapper {
+  width: 1250px;
+  margin: 106px auto 0 auto; }
+
+.getInTouchTitleText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+  .getInTouchTitleText h3 {
+    font-family: OpenSans-Bold;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase; }
+  .getInTouchTitleText p {
+    width: 720px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 51px 0 54px 0; }
+
+.contactInfoWrapper {
+  margin: 75px 0 0 0;
+  position: relative; }
+
+.sendMailForm {
+  width: 732px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .sendMailForm input {
+    width: 290px;
+    height: 69px;
+    border-radius: 5px;
+    padding: 0 0 0 49px;
+    border: none;
+    background: #e5e5e5;
+    font-family: OpenSans;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7); }
+  .sendMailForm textarea {
+    width: 680px;
+    height: 214px;
+    border-radius: 5px;
+    margin: 46px 0 45px 0;
+    border: none;
+    outline: none;
+    padding: 35px 0 0 51px;
+    background: #e5e5e5;
+    font-family: OpenSans;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7); }
+  .sendMailForm button {
+    width: 731px;
+    height: 72px;
+    border: none;
+    outline: none;
+    background: #ff3b3b;
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px; }
+
+.contactInfoBlackBlockWrapper {
+  width: 4000px;
+  height: 481px;
+  background: #2d2d2d;
+  position: absolute;
+  top: 0;
+  left: 838px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .contactInfoBlackBlockWrapper h5 {
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    margin: 0 0 0 79px; }
+  .contactInfoBlackBlockWrapper p {
+    width: 285px;
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 0 79px; }
+
+.footerFullScreenWrapper {
+  width: 100%;
+  height: 111px;
+  background: #313030;
+  margin: 110px 0 0 0; }
+
+.footerContentWrapper {
+  width: 1250px;
+  height: 111px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .footerContentWrapper p {
+    font-family: OpenSans;
+    font-size: 16px;
+    color: #b8b8b8; }
+
+.socialMediaFooterWrapper {
+  width: 185px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between; }
+
+/*# sourceMappingURL=main.css.map */
